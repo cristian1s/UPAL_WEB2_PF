@@ -1,0 +1,16 @@
+.button{
+    padding: 8px 10px;
+    border: 1px solid #5570F1;
+    outline:none;
+    border-radius: 8px;
+    font-size: .75rem;
+    min-width: 120px;
+}
+.button.fill{
+    background: #5570F1;
+    color: #FFF;
+}
+.button.second{
+    background: #FFF;
+    color: #5570F1;
+}

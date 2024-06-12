@@ -1,0 +1,41 @@
+.group-form{
+    width: 100%;
+    position: relative;
+}
+.select{
+    width: 100%;
+    border: 1px solid #CFD3D4;
+    border-radius: 8px;
+    outline: none;
+    padding:10px 0px 0px 7px;
+    font-size: .76rem;
+    color: #ABAFB1;
+    height: 42px;
+    /* -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none; */lor: #5570F1;
+}
+.label{
+    position: absolute;
+    bottom: 11px;
+    left: 12px;
+    display: block;
+    transition: 0.2s;
+    font-size: .85rem;
+    color: #5E6366;
+    font-size: 0.65rem;
+    transform: translateY(-11px);
+}
+.select.danger{
+    border-color: #F57E77;
+}
+.span_text{
+    color: #F57E77;
+    font-size: 0.62rem;
+    position: relative;
+    left: 4px;
+    display: none;
+}
+.span_text.active{
+    display: block;
+}

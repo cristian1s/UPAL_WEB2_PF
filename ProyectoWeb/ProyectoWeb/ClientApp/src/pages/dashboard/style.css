@@ -1,0 +1,33 @@
+﻿.row.c {
+    height: calc( 100vh - 135px);
+}
+.title-page {
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 15px;
+}
+.title-page i {
+    font-size: 1.9rem;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.content-chart {
+    border: 1px solid #dfdddd;
+    padding:12px;
+    border-radius: 12px;
+    display:flex;
+    place-content:center;
+}
+.content-chart.m{
+    height:calc(50vh - 80px);
+}
+.content-chart.f {
+    height:100%;
+}
+.col-sm-6.d{
+    height:100%;
+}
+.content-chart canvas {
+    height: 100% !important;
+}

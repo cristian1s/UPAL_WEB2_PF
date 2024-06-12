@@ -1,0 +1,54 @@
+.group-form{
+    width: 100%;
+    position: relative;
+}
+.input{
+    width: 100%;
+    border: 1px solid #CFD3D4;
+    border-radius: 8px;
+    outline: none;
+    padding:10px 12px 0px 12px;
+    font-size: .76rem;
+    color: #ABAFB1;
+    height: 42px;
+}
+.input::placeholder {
+    color: #ABAFB1;
+}
+.input:focus{
+    color: #5E6366;
+    border-color: #5570F1;
+}
+.label{
+    position: absolute;
+    bottom: 11px;
+    left: 12px;
+    display: block;
+    transition: 0.2s;
+    font-size: .85rem;
+    color: #5E6366;
+    font-size: 0.65rem;
+    transform: translateY(-11px);
+}
+.label.focus{
+    color: #5570F1;
+}
+.input.danger{
+    border-color: #F57E77;
+}
+.label.danger{
+    color: #F57E77;
+}
+.span_text{
+    color: #F57E77;
+    font-size: 0.62rem;
+    position: relative;
+    left: 4px;
+    display: none;
+}
+.span_text::before{
+    display:none !important;
+}
+.span_text.active{
+    display: block;
+}
